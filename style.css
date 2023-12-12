@@ -1,0 +1,33 @@
+/*Definição de cores e fontes'*/
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Roboto&display=swap');
+
+:root {
+    --fonte1: 'Concert One', sans-serif;
+    --fonte2: 'Roboto Slab', serif;
+    --fonte3: 'Arimo', sans-serif;
+    --cor1: white;
+    --cor2: black;
+    --cor3: #472B1E;
+    --cor4: #A37655;
+    --cor5: #CFB093;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    padding: 0!important;
+}
+
+#logo{
+    width: 200px;
+}
+
+header{
+    background-color: var(--cor4);
+}
