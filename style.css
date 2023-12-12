@@ -25,9 +25,49 @@
 }
 
 #logo{
-    width: 200px;
+    width: 100px;
 }
 
 header{
     background-color: var(--cor4);
+}
+
+.navbar-nav .nav-link {
+    color: var(--cor2);
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+form{
+    margin-right:10px ;
+}
+.navbar-nav .nav-link:hover {
+    color: white; /* Cor quando o mouse passa por cima */
+}
+
+/* Centralizar a logo */
+
+
+main{
+    background-image: url(imagens/aside.jpg);
+}
+
+.navbar-brand {
+    flex-basis: 100%; /* Define a logo para ocupar toda a largura disponível */
+    text-align: center; /* Centraliza a logo */
+}
+
+footer{
+    background-color: var(--cor4);
+}
+
+span{
+    color: var(--cor2);
+}
+
+ion-icon{
+    color: var(--cor2);
+}
+#preto{
+    color: var(--cor2);
 }
