@@ -101,3 +101,7 @@ strong{
 #produto{
     width: 700px;
 }
+h1{
+    color: var(--cor3);
+    font-size: 2em;
+}
