@@ -73,11 +73,6 @@ ion-icon{
     color: var(--cor2);
 }
 
-#banner{
-    margin-bottom: 50px;
-    width: 100%;
-}
-
 .card-title{
     color: var(--cor3);
     font-family: var(--fonte2);
