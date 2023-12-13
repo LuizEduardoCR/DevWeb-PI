@@ -53,93 +53,44 @@
 
   </header>
   <main>
-    <div class="container">
-      <img src="imagens/banner28.webp" class="img-fluid mx-auto d-block" alt="imagens/256_124.webp" id="banner">
-      <div class="card text-center">
-        <div class="card-body">
-          <h1 class="card-title">Destaques</h1>
 
-
-          <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <div class="card" id="card" style="width: 24.7rem;">
-                  <img src="imagens/256_124.webp" class="card-img-top" alt="imagens/256_124.webp">
-                  <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">A partir de R$<strong>99,99</strong>
-                      </p>
-                    <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card" id="card" style="width: 24.7rem;">
-                  <img src="imagens/256_124.webp" class="card-img-top" alt="imagens/256_124.webp">
-                  <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">A partir de R$<strong>99,99</strong>
-                      </p>
-                    <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card" id="card" style="width: 24.7rem;">
-                  <img src="imagens/256_124.webp" class="card-img-top" alt="imagens/256_124.webp">
-                  <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">A partir de R$<strong>99,99</strong>
-                      </p>
-                    <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/banner28.webp" class="d-block w-100" alt="imagens/banner28.webp">
           </div>
-
-          
-
-          <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <div class="card" id="card" style="width: 24.7rem;">
-                  <img src="imagens/256_124.webp" class="card-img-top" alt="imagens/256_124.webp">
-                  <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">A partir de R$<strong>99,99</strong>
-                      </p>
-                    <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card" id="card" style="width: 24.7rem;">
-                  <img src="imagens/256_124.webp" class="card-img-top" alt="imagens/256_124.webp">
-                  <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">A partir de R$<strong>99,99</strong>
-                      </p>
-                    <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card" id="card" style="width: 24.7rem;">
-                  <img src="imagens/256_124.webp" class="card-img-top" alt="imagens/256_124.webp">
-                  <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
-                    <p class="card-text">A partir de R$<strong>99,99</strong>
-                      </p>
-                    <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="carousel-item">
+            <img src="imagens/banner28.webp" class="d-block w-100" alt="imagens/banner28.webp">
           </div>
-
-          <a href="cardapio.html" class="btn" style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);">Ver Cardápio</a>        
+          <div class="carousel-item">
+            <img src="imagens/banner28.webp" class="d-block w-100" alt="imagens/banner28.webp">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+    <div class="container">
+      <div class="card" style="margin-top: 100px;">
+        <div class="card-body">
+          <h1 class="card-title text-center">Nossa História</h1>
+          <p style="font-family: var(--fonte3); color: var(--cor3); font-size: 1.5em; margin: 20px;">Em Setembro de 1984 a Doceria São José iniciou sua história com uma receita básica: necessidade de trabalho e empreendedorismo, adicionados a muita dedicação.</p>
+          <p style="font-family: var(--fonte3); color: var(--cor3); font-size: 1.5em; margin: 20px;">No início eram apenas os proprietários que tocavam a produção, a venda e a administração. Logo fermentou e cresceu para uma estrutura que agrega hoje aproximadamente 200 funcionários.</p>
+          
+          <p style="font-family: var(--fonte3); color: var(--cor3); font-size: 1.5em; margin: 20px;">Em 1995 surge sua primeira filial, no Shopping Mueller. Era chamada de Doceria Charlotte. Posteriormente passou a utilizar o mesmo nome da matriz: Doceria São José.</p>
+          <p style="font-family: var(--fonte3); color: var(--cor3); font-size: 1.5em; margin: 20px;">Hoje a Doceria São José é grande referência na cidade e tem como principal característica o sabor caseiro de seus produtos.</p>
+          <p style="font-family: var(--fonte3); color: var(--cor3); font-size: 1.5em; margin: 20px;"> Suas receitas são inspiradas na tradicional cozinha local e no que há de mais atual em confeitaria e panificação. Todos os seus produtos são elaborados pelos profissionais da casa, treinados pela própria empresa e sempre acompanhados por um profissional especifico na área de alimentos.</p>
+</div>
     </div>
   </main>
   <footer>
