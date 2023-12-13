@@ -2,533 +2,585 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="shortcut icon" href="imagens/header-logo.webp" type="image/x-icon">
-    <title>Doceria São José</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="shortcut icon" href="imagens/header-logo.webp" type="image/x-icon">
+  <title>Doceria São José</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
-            <div class="container-fluid">
+      <div class="container-fluid">
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="lojas.html">Lojas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cardapio.html">Cardápio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="historia.html">História</a>
-                        </li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!--Links para as paginas-->
 
-                    </ul>
-                </div>
-                <a class="navbar-brand" href="index.html"><img src="imagens/header-logo.webp" alt="" id="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="lojas.html">Lojas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cardapio.html">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html">História</a>
+            </li>
 
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                    <button class="btn btn-outline-dark" type="submit"><ion-icon
-                            name="search-outline"></ion-icon></button>
-                </form>
-
-            </div>
-            </div>
-        </nav>
-
-    </header>
-    <main>
-        <div class="container">
-            <div class="card" style="margin-top: 100px;">
-                <div class="card-body">
-                    <div class="container text-center">
-                        <h1
-                            style="color: var(--cor3);font-family: var(--fonte2); font-size: 4em; margin-top:20px ; margin-bottom: 40px;">
-                            Cardápio</h1>
-                        <div class="row">
-                            <div class="col">
-                                <a href="#Tortas" class="btn"
-                                    style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);margin-top: 20px;">Tortas</a>
-                            </div>
-                            <div class="col">
-                                <a href="#Salgadinhos" class="btn"
-                                    style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);margin-top: 20px;">Salgadinhos</a>
-                            </div>
-                            <div class="col">
-                                <a href="#Empadoes" class="btn"
-                                    style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);margin-top: 20px;">Empadões</a>
-                            </div>
-                            <div class="col">
-                                <a href="#Docinhos" class="btn"
-                                    style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);margin-top: 20px;">Docinhos</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-center" id="Tortas"
-                    style="color: var(--cor3);font-family: var(--fonte2); font-size: 3em; margin-top:80px ; margin-bottom: 40px;">
-                    Tortas</h2>
-                    
-                    <div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/maracujatorta.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA MARACUJÁ
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>140,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/limaotorta.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA LIMÃO COM MERENGUE
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>140,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/tortaalema.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA ALEMÃ
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>120,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/morangochocotorta.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA PELADA MORANGO COM CHOCOLATE
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>168,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/frutasVermelhasTorta.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA FRUTAS VERMELHAS
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>169,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/requeijaoTorta.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA REQUEIJÃO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>115,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 18rem;">
-                              <img src="imagens/pessegoTorta.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA DE PÊSSEGO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>146,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 18rem;">
-                              <img src="imagens/martaRochaTorta.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA MARTA ROCHA
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>146,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/2amorestorta.jpg" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA DOIS AMORES
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>140,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-
-                <h2 class="text-center" id="Salgadinhos"
-                    style="color: var(--cor3);font-family: var(--fonte2); font-size: 3em; margin-top:80px ; margin-bottom: 40px;">
-                    Salgadinhos</h2>
-                    <div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/miniPaoQueijo.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">MINI PAO DE QUEIJO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>1,60</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/kibe.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">KIBE</h5>
-                                <p class="card-text">A partir de R$<strong>1,80</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/empadinhaPalm.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">MINI EMPADA DE PALMITO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>1,80</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div><div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/enroladinhopizza.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">MINI ENROLADINHO DE PIZZA
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>1,80</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/minicozinha.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">MINI COXINHA</h5>
-                                <p class="card-text">A partir de R$<strong>1,80</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/perolaQeuijo.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">PÉROLA DE QUEIJO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>1,80</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div><div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/PAssadoFRango.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">MINI PASTEL ASSADO DE FRANGO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>180</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/PAssadoCarne.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">MINI PASTEL ASSADO CARNE
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>1,80</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/PAssadoPalmito.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">MINI PASTEL ASSADO PALMITO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>1,80</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-
-
-                <h2 class="text-center" id="Empadoes"
-                    style="color: var(--cor3);font-family: var(--fonte2); font-size: 3em; margin-top:80px ; margin-bottom: 40px;">
-                    Empadões</h2>
-                    <div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/piclesEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA FRIA DE PICLES
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>84,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/frangoFEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">TORTA FRIA FRANGO C/PALMITO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>84,00</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/frangoTomEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">EMPADÃO DE FRANGO COM TOMATE SECO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>127,90</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div><div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/brocolisEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">EMPADÃO DE BRÓCOLIS
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>127,90</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/franfoEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">EMPADAO FRANGO PALMITO REQUEIJAO
-                                </h5>
-                                <p class="card-text">A partir de R$<strong>127,90</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                <h2 class="text-center" id="Docinhos"
-                    style="color: var(--cor3);font-family: var(--fonte2); font-size: 3em; margin-top:80px ; margin-bottom: 40px;">
-                    Docinhos</h2>
-                    <div class="container text-center">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/camafeu.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">CAMAFEU</h5>
-                                <p class="card-text">A partir de R$<strong>4,30</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/doisamores.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">DOIS AMORES</h5>
-                                <p class="card-text">A partir de R$<strong>1,90</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" id="card" style="width: 20rem;">
-                              <img src="imagens/brigadeiro.webp" class="card-img-top" alt="imagens/256_124.webp">
-                              <div class="card-body">
-                                <h5 class="card-title">BRIGADEIRO</h5>
-                                <p class="card-text">A partir de R$<strong>1,90</strong>
-                                  </p>
-                                <a href="produto.html" class="btn" style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      
-            </div>
-
+          </ul>
         </div>
-    </main>
-    <footer>
-        <!-- Footer -->
-        <footer class="text-center text-lg-start bg-body-tertiary text-muted">
-            <!-- Section: Social media -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              <!--Logo com link-->
 
-            </section>
-            <!-- Section: Social media -->
+        <a class="navbar-brand" href="index.html"><img src="imagens/header-logo.webp" alt="" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <!--barra de pesquisa-->
 
-            <!-- Section: Links  -->
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit"><ion-icon name="search-outline"></ion-icon></button>
+        </form>
 
-                            <img src="imagens/header-logo.webp" alt="">
-                        </div>
-                        <!-- Grid column -->
+      </div>
+      </div>
+    </nav>
 
-                        <!-- Grid column -->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" id="preto">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Menu</h6>
+  </header>
+  <main>
 
-                            <p>
-                                <a href="lojas.html" class="text-reset">Lojas</a>
-                            </p>
-                            <p>
-                                <a href="cardapio.html" class="text-reset">Cardápio</a>
-                            </p>
-                            <p>
-                                <a href="historia.html" class="text-reset">História</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
+    <div class="container">
+      <div class="card" style="margin-top: 100px;">
+        <div class="card-body">
+          <div class="container text-center">
+            <h1
+              style="color: var(--cor3);font-family: var(--fonte2); font-size: 4em; margin-top:20px ; margin-bottom: 40px;">
+              Cardápio</h1>
+                  <!--Botões para navegar dentro do Cardápio-->
 
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="preto">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Atendimento
-                            </h6>
-                            <p>
-                                Segunda a Sexta: das 06:30 às 20:00
-                            </p>
-                            <p>
-                                Sábado: das 07:00 às 19:30
-                            </p>
-                            <p>
-                                Domingo: das 07:30 às 19:30
-
-                            </p>
-
-                        </div>
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="preto">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Contato
-                            </h6>
-
-                            <p>Televendas</p>
-                            <p>(47) 3433-2626 <ion-icon name="call-outline" style="width: 30px;"></ion-icon></p>
-                            <p>WhatsApp</p>
-                            <p>(47) 99265-1705 <ion-icon name="logo-whatsapp" style="width: 30px;"></ion-icon></p>
-
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                    </div>
-                    <!-- Grid row -->
-                </div>
-            </section>
-            <!-- Section: Links  -->
-
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: var(--cor3);">
-                © 2023 Copyright:
-                <a class="text-reset fw-bold" href="index.html">DoceriaSaoJose.com</a>
+            <div class="row">
+              <div class="col">
+                <a href="#Tortas" class="btn"
+                  style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);margin-top: 20px;">Tortas</a>
+              </div>
+              <div class="col">
+                <a href="#Salgadinhos" class="btn"
+                  style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);margin-top: 20px;">Salgadinhos</a>
+              </div>
+              <div class="col">
+                <a href="#Empadoes" class="btn"
+                  style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);margin-top: 20px;">Empadões</a>
+              </div>
+              <div class="col">
+                <a href="#Docinhos" class="btn"
+                  style="background-color: var(--cor6); color: var(--cor1); width: 200px; height: 50px; font-size: 1.5em; font-family: var(--fonte3);margin-top: 20px;">Docinhos</a>
+              </div>
             </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
+          </div>
+        </div>
+            <!--topico do cardapio-->
+
+        <h2 class="text-center" id="Tortas"
+          style="color: var(--cor3);font-family: var(--fonte2); font-size: 3em; margin-top:80px ; margin-bottom: 40px;">
+          Tortas</h2>
+                    <!--itens do cardápio-->
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/maracujatorta.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA MARACUJÁ
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>140,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/limaotorta.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA LIMÃO COM MERENGUE
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>140,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/tortaalema.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA ALEMÃ
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>120,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/morangochocotorta.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA PELADA MORANGO COM CHOCOLATE
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>168,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/frutasVermelhasTorta.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA FRUTAS VERMELHAS
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>169,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/requeijaoTorta.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA REQUEIJÃO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>115,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" id="card" style="width: 18rem;">
+                <img src="imagens/pessegoTorta.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA DE PÊSSEGO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>146,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 18rem;">
+                <img src="imagens/martaRochaTorta.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA MARTA ROCHA
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>146,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/2amorestorta.jpg" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA DOIS AMORES
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>140,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h2 class="text-center" id="Salgadinhos"
+          style="color: var(--cor3);font-family: var(--fonte2); font-size: 3em; margin-top:80px ; margin-bottom: 40px;">
+          
+            <!--topico do cardapio-->
+
+          Salgadinhos</h2>
+                              <!--itens do cardápio-->
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/miniPaoQueijo.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">MINI PAO DE QUEIJO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>1,60</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/kibe.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">KIBE</h5>
+                  <p class="card-text">A partir de R$<strong>1,80</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/empadinhaPalm.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">MINI EMPADA DE PALMITO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>1,80</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/enroladinhopizza.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">MINI ENROLADINHO DE PIZZA
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>1,80</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/minicozinha.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">MINI COXINHA</h5>
+                  <p class="card-text">A partir de R$<strong>1,80</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/perolaQeuijo.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">PÉROLA DE QUEIJO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>1,80</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/PAssadoFRango.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">MINI PASTEL ASSADO DE FRANGO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>180</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/PAssadoCarne.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">MINI PASTEL ASSADO CARNE
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>1,80</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/PAssadoPalmito.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">MINI PASTEL ASSADO PALMITO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>1,80</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <h2 class="text-center" id="Empadoes"
+          style="color: var(--cor3);font-family: var(--fonte2); font-size: 3em; margin-top:80px ; margin-bottom: 40px;">
+                      <!--topico do cardapio-->
+
+          Empadões</h2>
+                              <!--itens do cardápio-->
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/piclesEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA FRIA DE PICLES
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>84,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/frangoFEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">TORTA FRIA FRANGO C/PALMITO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>84,00</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/frangoTomEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">EMPADÃO DE FRANGO COM TOMATE SECO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>127,90</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/brocolisEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">EMPADÃO DE BRÓCOLIS
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>127,90</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="card" style="width: 20rem;">
+                <img src="imagens/franfoEmpadao.webp" class="card-img-top" alt="imagens/256_124.webp">
+                <div class="card-body">
+                  <h5 class="card-title">EMPADAO FRANGO PALMITO REQUEIJAO
+                  </h5>
+                  <p class="card-text">A partir de R$<strong>127,90</strong>
+                  </p>
+                  <a href="produto.html" class="btn"
+                    style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center" id="Docinhos"
+              style="color: var(--cor3);font-family: var(--fonte2); font-size: 3em; margin-top:80px ; margin-bottom: 40px;">
+                          <!--topico do cardapio-->
+
+              Docinhos</h2>
+                                  <!--itens do cardápio-->
+
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <div class="card" id="card" style="width: 20rem;">
+                    <img src="imagens/camafeu.webp" class="card-img-top" alt="imagens/256_124.webp">
+                    <div class="card-body">
+                      <h5 class="card-title">CAMAFEU</h5>
+                      <p class="card-text">A partir de R$<strong>4,30</strong>
+                      </p>
+                      <a href="produto.html" class="btn"
+                        style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" id="card" style="width: 20rem;">
+                    <img src="imagens/doisamores.webp" class="card-img-top" alt="imagens/256_124.webp">
+                    <div class="card-body">
+                      <h5 class="card-title">DOIS AMORES</h5>
+                      <p class="card-text">A partir de R$<strong>1,90</strong>
+                      </p>
+                      <a href="produto.html" class="btn"
+                        style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" id="card" style="width: 20rem;">
+                    <img src="imagens/brigadeiro.webp" class="card-img-top" alt="imagens/256_124.webp">
+                    <div class="card-body">
+                      <h5 class="card-title">BRIGADEIRO</h5>
+                      <p class="card-text">A partir de R$<strong>1,90</strong>
+                      </p>
+                      <a href="produto.html" class="btn"
+                        style="background-color: var(--cor6); color: var(--cor1);">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+  </main>
+  <footer>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+
+              <img src="imagens/header-logo.webp" alt="">
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" id="preto">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Menu</h6>
+
+              <p>
+                <a href="lojas.html" class="text-reset">Lojas</a>
+              </p>
+              <p>
+                <a href="cardapio.html" class="text-reset">Cardápio</a>
+              </p>
+              <p>
+                <a href="historia.html" class="text-reset">História</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="preto">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Atendimento
+              </h6>
+              <p>
+                Segunda a Sexta: das 06:30 às 20:00
+              </p>
+              <p>
+                Sábado: das 07:00 às 19:30
+              </p>
+              <p>
+                Domingo: das 07:30 às 19:30
+
+              </p>
+
+            </div>
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="preto">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Contato
+              </h6>
+
+              <p>Televendas</p>
+              <p>(47) 3433-2626 <ion-icon name="call-outline" style="width: 30px;"></ion-icon></p>
+              <p>WhatsApp</p>
+              <p>(47) 99265-1705 <ion-icon name="logo-whatsapp" style="width: 30px;"></ion-icon></p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: var(--cor3);">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="index.html">DoceriaSaoJose.com</a>
+      </div>
+      <!-- Copyright -->
     </footer>
+    <!-- Footer -->
+  </footer>
 </body>
 
 </html>
